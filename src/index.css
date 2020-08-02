@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&display=swap");
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,159 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+}
+
+html {
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav {
+  background-image: url(../src/assets/Tokyo-Hero-LP.jpg);
+  margin-top: auto;
+  margin-bottom: 2rem;
+  height: 50vh;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  min-height: 8vh;
+  font-size: x-large;
+  font-family: 'Italianno', cursive;;
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#nav-list-a {
+  margin-top: 1.5rem;
+  font-size: xx-large;
+  font-family: 'Cinzel', serif;
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  font-family: 'Italianno', cursive;
+
+}
+
+.resume-container {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  opacity: 1;
+}
+
+.resume-title {
+  font-size: xx-large;
+  font-family: 'Italianno', cursive;
+  justify-content: center;
+}
+
+.resume {
+  font-family: 'Quintessential', cursive;
+  font-size: larger;
+}
+
+#resume-link {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.about {
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  opacity: 1;
+}
+
+#aboutid {
+  opacity: 1;
+}
+
+#about-name {
+  text-align: center;
+  font-family: 'Quintessential', cursive;
+  font-weight: 700;
+  font-size: x-large;
+}
+
+p {
+  font-family: 'Quintessential', cursive;
+  font-size: larger;
+}
+
+.contact {
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  opacity: 100%;
+}
+
+.feather {
+
+}
+
+
+.row {
+  margin-top: 6em;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 40%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+#link {
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+  font-family: 'Italianno', cursive;
+  font-size: x-large;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
