@@ -109,12 +109,18 @@ p {
   padding-left: 30px;
   padding-right: 30px;
   opacity: 100%;
+  align-items: center;
 }
 
-.feather {
-
+.constact-info {
+  text-align: center;
 }
 
+#emailid {
+  text-decoration: none;
+  background-color: transparent;
+  color: black;
+}
 
 .row {
   margin-top: 6em;
@@ -146,6 +152,12 @@ p {
   background-color: transparent;
   font-family: 'Italianno', cursive;
   font-size: x-large;
+}
+
+.footer {
+  background-color: gray;
+ 
+
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

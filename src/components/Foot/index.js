@@ -5,7 +5,7 @@ import React from 'react';
 function Foot() {
 
     return (
-        <div className="footer">
+        <div class="footer" className="footer">
             <a rel="noopener noreferrer" href="https://github.com/jcsryan" target="_blank">
               <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub"></img>
             </a>
