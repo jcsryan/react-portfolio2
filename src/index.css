@@ -114,18 +114,14 @@ p {
   padding-right: 30px;
   opacity: 100%;
   align-items: center;
-  color: black
+ 
 }
 
-.constact-info {
+.contact-info {
   text-align: center;
 }
 
-#emailid {
-  text-decoration: none;
-  background-color: transparent;
-  color: black;
-}
+
 
 .row {
   margin-top: 6em;
@@ -178,6 +174,8 @@ p {
   font-weight: 800;
   text-align: center;
   color: rgb(168, 88, 221);
+  text-decoration: none;
+  background-color: transparent;
 
 }
 
