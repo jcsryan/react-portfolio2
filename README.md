@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<h1 align="center">E-Commerce Back End</h1>
+<h1 align="center">John Ryan Portfolio</h1>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Javascript-brightgreen"/>
