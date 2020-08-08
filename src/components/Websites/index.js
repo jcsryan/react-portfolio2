@@ -32,6 +32,10 @@ function Websites() {
                 <a id="link" href="https://jcsryan.github.io/movie-ranker/" target="_blank" rel="noopener noreferrer">Visit</a>
 
             </div>
+            <div>
+                <br></br>
+                <br></br>
+            </div>
         </div>
     )
 }

@@ -71,6 +71,10 @@ code {
 #resume-link {
   text-decoration: none;
   background-color: transparent;
+  font-weight: 600;
+  font-family: 'Quintessential', cursive;
+  color: rgb(168, 88, 221);
+
 }
 
 .about {
@@ -156,7 +160,23 @@ p {
 
 .footer {
   background-color: gray;
- 
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+
+#emailcontainer {
+  text-align: center;
+
+}
+
+#emailid {
+  font-size: x-large;
+  font-weight: 800;
+  text-align: center;
+  color: rgb(168, 88, 221);
 
 }
 

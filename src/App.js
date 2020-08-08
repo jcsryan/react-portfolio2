@@ -36,6 +36,9 @@ function App() {
          <Resume></Resume> 
          <Websites></Websites>
          <Contact></Contact> */}
+         <br></br>
+         <br></br>
+         <br></br>
          <Foot></Foot>
       </div>
      
