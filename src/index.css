@@ -47,7 +47,7 @@ code {
   text-decoration: none;
   background-color: transparent;
   font-family: 'Italianno', cursive;
-  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 2px 2px 0 white;
+  text-shadow: -1px -1px 0 #b491c8, 1px -1px 0 #b491c8, -1px 1px 0 #b491c8, 2px 2px 0 #b491c8;
 }
 
 #nav-list-a:hover {
