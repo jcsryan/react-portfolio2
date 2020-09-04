@@ -7,14 +7,14 @@ function Navbar(props) {
             
             {tabs.map(tab => (
                 <li className="nav-list" key={tab}>
-                    <a id="nav-list-a" href={'#' + tab}
+                    <button id="nav-list-a" href={'#' + tab}
                     onClick={()=> props.handlePageChange(tab)}
                     className={
                         props.currentPage === tab ? 'nav-link active' : 'nav-link'
                     }
                     >
                         {tab}
-                    </a>
+                    </button>
                 </li>
             ))}
         </ul>
