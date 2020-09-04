@@ -10,8 +10,7 @@ body {
   
 }
 
-html {
-}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -33,7 +32,7 @@ code {
   min-height: 8vh;
   font-size: x-large;
   font-family: 'Italianno', cursive;;
-  color: white;
+  color: #3c1361;
   text-decoration: none;
   background-color: transparent;
 }
@@ -42,7 +41,9 @@ code {
   margin-top: 1.5rem;
   font-size: xx-large;
   font-family: 'Cinzel', serif;
-  color: white;
+  color: #3c1361;
+  border-color: white;
+  border-width: 5px;
   text-decoration: none;
   background-color: transparent;
   font-family: 'Italianno', cursive;
@@ -56,6 +57,7 @@ code {
   background-color: white;
   opacity: 1;
 }
+
 
 .resume-title {
   font-size: xx-large;
@@ -112,7 +114,6 @@ p {
   padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
-  opacity: 100%;
   align-items: center;
  
 }
@@ -194,49 +195,43 @@ button {
   font-family: inherit;
 }
 
-button.big-button {
-   padding: 1em 2em;
-   border: 2px solid var(--colorShadeA);
-  border-radius: 1em;
-  background: var(--colorShadeE);
-transform-style: preserve-3d;
-   transition: all 175ms cubic-bezier(0, 0, 1, 1);
-}
-button.big-button::before {
-  position: absolute;
-  content: '';
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: var(--colorShadeC);
-  border-radius: inherit;
-    box-shadow: 0 0 0 2px black, 0 0.75em 0 0 var(--colorShadeA);
- transform: translate3d(0, 0.75em, -1em);
-     transition: all 175ms cubic-bezier(0, 0, 1, 1);
+.center-btn {
+  text-align: center;
 }
 
-
-button.big-button:hover {
-  background: var(--colorShadeD);
-  transform: translate(0, 0.375em);
-}
-
-button.big-button:hover::before {
-  transform: translate3d(0, 0.75em, -1em);
-}
-
-button.big-button:active {
-            transform: translate(0em, 0.75em);
-}
-
-button.big-button:active::before {
-  transform: translate3d(0, 0, -1em);
+.bt{
+  display:inline-block;
+  position:relative;
+  padding:1px 80px;
+  border:2px solid rgb(168, 88, 221);
+  color: rgb(168, 88, 221);
+  font-size:30px;
+  text-decoration:none;
+  margin:5px auto;
+  transition: color 0.4s;
   
-      box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);
-
+}
+.bt:after{
+  content:" ";
+  border:2px solid rgba(0,0,0,0);
+  display:inline-block;
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  transition:all 0.4s;
+}
+.bt:hover{
+  color:#eee
+}
+.bt:hover:after{  
+  border:2px solid rgb(168, 88, 221);
+  width: calc(100% - 10px);
+  height: calc(100% + 10px); 
 }
 
 
