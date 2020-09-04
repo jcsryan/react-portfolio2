@@ -50,6 +50,11 @@ code {
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 2px 2px 0 white;
 }
 
+#nav-list-a:hover {
+  text-shadow: -1px -1px 0 #663a82, 1px -1px 0 #663a82, -1px 1px 0 #663a82, 2px 2px 0 #663a82;
+
+}
+
 .resume-container {
   text-align: center;
   margin-left: 10%;
