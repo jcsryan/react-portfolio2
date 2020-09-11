@@ -5,7 +5,7 @@ import Websites from './components/Websites';
 import Contact from './components/Contact';
 import Foot from './components/Foot';
 import Resume from './components/Resume';
-
+import Navlist from './components/navlist/Navlist'
 
 function App() {
   const [ currentPage, handlePageChange] = useState('About')
@@ -27,9 +27,9 @@ function App() {
   return (
     <div >
       <header className="header " >
-     
-        <Navbar currentPage={currentPage} handlePageChange={handlePageChange}></Navbar>
+        <Navbar></Navbar>
       </header>
+      <Navlist currentPage={currentPage} handlePageChange={handlePageChange}></Navlist>
       <div class ="feather">
         {renderPage()}
          {/* <About></About>

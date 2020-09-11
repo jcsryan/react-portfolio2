@@ -18,42 +18,48 @@ code {
     monospace;
 }
 
-.nav {
-  background-image: url(../src/assets/Tokyo-Hero-LP.jpg);
+.hero {
+  background-image: url(../src/assets/6.JPG);
   margin-top: auto;
-  margin-bottom: 2rem;
-  height: 50vh;
+  height: 35vh;
   align-items: center;
   background-repeat: no-repeat;
+  background-position: 70% 20%;
+  opacity: 50%;
 }
 
-.nav-list {
+.navlist {
   display: flex;
-  flex-direction: column;
-  min-height: 8vh;
-  font-size: x-large;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  min-height: 1vh;
+  font-size: large;
   font-family: 'Playfair Display', serif;
-  color: #3c1361;
+  color: black;
   text-decoration: none;
   background-color: transparent;
+  opacity: 100;
 }
 
 #nav-list-a {
-  margin-top: 1.5rem;
-  font-size: xx-large;
+  margin-top: 0rem;
+  font-size: large;
   font-family: 'Playfair Display', serif;
-  color: #3c1361;
+  color: black;
   border-color: white;
   border-width: 5px;
   text-decoration: none;
   background-color: transparent;
-  text-shadow: -1px -1px 0 #b491c8, 1px -1px 0 #b491c8, -1px 1px 0 #b491c8, 2px 2px 0 #b491c8;
   margin-right: auto;
 }
 
 #nav-list-a:hover {
-  text-shadow: -1px -1px 0 #663a82, 1px -1px 0 #663a82, -1px 1px 0 #663a82, 2px 2px 0 #663a82;
-
+  -webkit-transform: rotateZ(-20deg);
+  -ms-transform: rotateZ(-20deg);
+  transform: rotateZ(-20deg);
+  transition-timing-function: ease;
+  transition-duration: 2s;
 }
 
 .resume-container {
@@ -81,9 +87,9 @@ code {
   background-color: transparent;
   font-weight: 600;
   font-family: 'Playfair Display', serif;
-  color: rgb(168, 88, 221);
-
+  color: black;
 }
+
 
 .about {
   margin-left: 30%;
@@ -98,9 +104,6 @@ code {
 
 #aboutid {
   opacity: 100;
-}
-
-.about-info{
 }
 
 .about-pic {
@@ -149,7 +152,7 @@ p {
   margin-right: 20%;
 }
 
-/* Create four equal columns that sits next to each other */
+/* Create four equal columns that sit next to each other */
 .column {
   flex: 40%;
   max-width: 50%;
@@ -190,7 +193,7 @@ p {
   font-size: x-large;
   font-weight: 800;
   text-align: center;
-  color: rgb(168, 88, 221);
+  color: rgb(17, 13, 19);
   text-decoration: none;
   background-color: transparent;
 
@@ -219,8 +222,8 @@ button {
   display:inline-block;
   position:relative;
   padding:1px 80px;
-  border:2px solid rgb(168, 88, 221);
-  color: rgb(168, 88, 221);
+  border:2px solid black;
+  color: black;
   font-size:30px;
   text-decoration:none;
   margin:5px auto;
@@ -245,7 +248,7 @@ button {
   color:#eee
 }
 .bt:hover:after{  
-  border:2px solid rgb(168, 88, 221);
+  border:2px solid black;
   width: calc(100% - 10px);
   height: calc(100% + 10px); 
 }
@@ -346,5 +349,13 @@ button {
   padding-left: 0px;
   padding-right: 0px;
   opacity: 1;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .navlist{
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
   }
 }
